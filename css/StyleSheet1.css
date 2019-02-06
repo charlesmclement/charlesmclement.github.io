@@ -129,5 +129,5 @@ h3 {
      color:white; z-index:1;
      }
 #projectsArrow{
-    margin:0px 0 0 800px; z-index:2;
+    margin:-100px 0 0 900px; z-index:2;
 }
