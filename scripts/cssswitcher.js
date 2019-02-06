@@ -11,3 +11,13 @@
         }
     }
 }
+
+function menuAbout() {
+    $(document).ready(function () {
+        $('#show').click(function () {
+            $('.demos').hide;
+            $('.projects').hide;
+            $('.menu').hide("slide");
+        });
+    });
+}
