@@ -1,0 +1,117 @@
+﻿body {
+    color: white;
+    background-color:#ccffff;
+    text-align: center;
+}
+
+
+h1 {
+    font-size: 70pt;
+    font-family: Impact, Helvetica;
+    color: white;
+    text-shadow: 0px -3px 0 #212121, 0px -3px 0 #212121, 0px 3px 0 #212121, 0px 3px 0 #212121, -3px 0px 0 #212121, 3px 0px 0 #212121, -3px 0px 0 #212121, 3px 0px 0 #212121, -3px -3px 0 #212121, 3px -3px 0 #212121, -3px 3px 0 #212121, 3px 3px 0 #212121, -3px 18px 0 #212121, 0px 18px 0 #212121, 3px 18px 0 #212121, 0 19px 1px rgba(0,0,0,.1), 0 0 3px rgba(0,0,0,.1), 0 3px 3px rgba(0,0,0,.3), 0 12px 3px rgba(0,0,0,.2), 0 18px 18px rgba(0,0,0,.25), 0 24px 24px rgba(0,0,0,.2), 0 36px 36px rgba(0,0,0,.15);
+}
+
+
+h2 {
+    font-size: 55pt;
+    font-family: Impact, Helvetica;
+    color: white;
+    text-shadow: 0px -3px 0 #212121, 0px -3px 0 #212121, 0px 3px 0 #212121, 0px 3px 0 #212121, -3px 0px 0 #212121, 3px 0px 0 #212121, -3px 0px 0 #212121, 3px 0px 0 #212121, -3px -3px 0 #212121, 3px -3px 0 #212121, -3px 3px 0 #212121, 3px 3px 0 #212121, -3px 18px 0 #212121, 0px 18px 0 #212121, 3px 18px 0 #212121, 0 19px 1px rgba(0,0,0,.1), 0 0 3px rgba(0,0,0,.1), 0 3px 3px rgba(0,0,0,.3), 0 12px 3px rgba(0,0,0,.2), 0 18px 18px rgba(0,0,0,.25), 0 24px 24px rgba(0,0,0,.2), 0 36px 36px rgba(0,0,0,.15);
+}
+
+
+h3 {
+    font-size: 45pt;
+    font-family: Impact, Helvetica;
+    color: white;
+    text-shadow: 0px -3px 0 #212121, 0px -3px 0 #212121, 0px 3px 0 #212121, 0px 3px 0 #212121, -3px 0px 0 #212121, 3px 0px 0 #212121, -3px 0px 0 #212121, 3px 0px 0 #212121, -3px -3px 0 #212121, 3px -3px 0 #212121, -3px 3px 0 #212121, 3px 3px 0 #212121, -3px 18px 0 #212121, 0px 18px 0 #212121, 3px 18px 0 #212121, 0 19px 1px rgba(0,0,0,.1), 0 0 3px rgba(0,0,0,.1), 0 3px 3px rgba(0,0,0,.3), 0 12px 3px rgba(0,0,0,.2), 0 18px 18px rgba(0,0,0,.25), 0 24px 24px rgba(0,0,0,.2), 0 36px 36px rgba(0,0,0,.15);
+}
+.contentBlock {
+    text-align: left;
+    color: white;
+    font-family:sans-serif;
+    }
+
+.divTable {
+    display: table;
+    width: 55%;
+    margin: auto;
+    border: none;
+    background-color:rgba(0,0,0,.3)
+}
+
+.divTableRow {
+    display: table-row;
+}
+
+.divTableHeading {
+    background-color: #EEE;
+    display: table-header-group;
+}
+
+.divTableCell, .divTableHead {
+    border: none;
+    display: table-cell;
+    padding: 3px 10px;
+}
+
+.divTableHeading {
+    background-color: #EEE;
+    display: table-header-group;
+    font-weight: bold;
+}
+
+.divTableFoot {
+    background-color: #EEE;
+    display: table-footer-group;
+    font-weight: bold;
+}
+
+.divTableBody {
+    display: table-row-group;
+}
+
+
+.lightson{
+	height:70px;
+	width:80px;
+	visibility:hidden;
+	position:fixed;
+	top:0px;
+	right:50px;
+}
+
+.lightsoff{
+	position:fixed;
+	top:0px;
+	right:50px;
+	height:70px;
+	width:80px;
+}
+
+
+.links{
+	position:fixed;
+	top:15px;
+	right:550px;
+	height:70px;
+	width:700px;
+}
+
+.menu{
+	height:50px;
+	width:120px;
+}
+
+.menuBarLight{
+	position:fixed;
+	top:12px;
+	right:200px;
+}
+.menuBarDark{
+	position:fixed;
+	top:12px;
+	right:200px;
+	visibility:hidden;
+}
