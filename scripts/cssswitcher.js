@@ -1,4 +1,4 @@
-﻿function switch_style(css_title) {
+﻿function lightswitch(css_title) {
     var i, tag_name;
     for (i = 0, tag_name = document.getElementsByTagName("link") ;
       i < tag_name.length ; i++) {
