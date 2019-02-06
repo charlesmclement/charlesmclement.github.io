@@ -1,11 +1,11 @@
 ﻿body {
     color: white;
-    background-color:#202020;
+    background-color: #202020;
     text-align: center;
 }
 
 h1 {
-    z-index:1;
+    z-index: 1;
     font-size: 70pt;
     font-family: Impact, Helvetica;
     color: lightgrey;
@@ -13,7 +13,7 @@ h1 {
 }
 
 h2 {
-    z-index:1;
+    z-index: 1;
     font-size: 55pt;
     font-family: Impact, Helvetica;
     color: lightgrey;
@@ -22,7 +22,7 @@ h2 {
 
 
 h3 {
-    z-index:1;
+    z-index: 1;
     font-size: 45pt;
     font-family: Impact, Helvetica;
     color: lightgrey;
@@ -32,15 +32,15 @@ h3 {
 .contentBlock {
     text-align: left;
     color: white;
-    font-family:sans-serif;
-    }
+    font-family: sans-serif;
+}
 
 .divTable {
     display: table;
     width: 55%;
     margin: auto;
     border: none;
-    background-color:rgba(0,0,0,.3)
+    background-color: rgba(0,0,0,.3);
 }
 
 .divTableRow {
@@ -73,60 +73,60 @@ h3 {
 .divTableBody {
     display: table-row-group;
 }
-.lightson{
-	height:70px;
-	width:80px;
 
-	position:fixed;
-	top:0px;
-	right:50px;
+.lightson {
+    height: 70px;
+    width: 80px;
+    position: fixed;
+    top: 0px;
+    right: 50px;
 }
 
-.lightsoff{
-	position:fixed;
-	top:0px;
-	right:50px;
-	visibility:hidden;
-	height:70px;
-	width:80px;
+.lightsoff {
+    position: fixed;
+    top: 0px;
+    right: 50px;
+    visibility: hidden;
+    height: 70px;
+    width: 80px;
 }
 
-.links{
-	position:fixed;
-	top:15px;
-	right:550px;
-	height:70px;
-	width:700px;
+.links {
+    position: fixed;
+    top: 15px;
+    right: 550px;
+    height: 70px;
+    width: 700px;
 }
 
 
-.menu{
-	height:50px;
-	width:120px;
+.menu {
+    height: 50px;
+    width: 120px;
 }
 
-.menuBarLight{
-	position:fixed;
-	top:12px;
-	right:200px;
-	visibility:hidden;
-}
-.menuBarDark{
-	position:fixed;
-	top:12px;
-	right:200px;
-
+.menuBarLight {
+    position: fixed;
+    top: 12px;
+    right: 200px;
+    visibility: hidden;
 }
 
-.projectsTitle{
+.menuBarDark {
+    position: fixed;
+    top: 12px;
+    right: 200px;
+}
+
+.projectsTitle {
     font-size: 45pt;
-    position:absolute;
+    position: absolute;
     font-family: Impact, Helvetica;
     color: lightgrey;
     text-shadow: 0px -3px 0 #212121, 0px -3px 0 #212121, 0px 3px 0 #212121, 0px 3px 0 #212121, -3px 0px 0 #212121, 3px 0px 0 #212121, -3px 0px 0 #212121, 3px 0px 0 #212121, -3px -3px 0 #212121, 3px -3px 0 #212121, -3px 3px 0 #212121, 3px 3px 0 #212121, -3px 18px 0 #212121, 0px 18px 0 #212121, 3px 18px 0 #212121, 0 19px 1px rgba(0,0,0,.1), 0 0 3px rgba(0,0,0,.1), 0 3px 3px rgba(0,0,0,.3), 0 12px 3px rgba(0,0,0,.2), 0 18px 18px rgba(0,0,0,.25), 0 24px 24px rgba(0,0,0,.2), 0 36px 36px rgba(0,0,0,.15);
-
 }
 
-#projectsArrow{
-    margin:-100px 0 0 50%; z-index:2;
+#projectsArrow {
+    margin: -100px 0 0 50%;
+    z-index: 2;
 }
