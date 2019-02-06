@@ -13,7 +13,7 @@
 }
 
 function menuAbout() {
-    var x = document.getElementById("show");
+    var x = document.getElementById("splash");
     if (x.style.display === "none") {
         x.style.display = "block";
     } else {
