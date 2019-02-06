@@ -253,7 +253,6 @@ th {
   }
   .table td,
   .table th {
-    background-color: #fff !important;
   }
   .table-bordered th,
   .table-bordered td {
@@ -1083,7 +1082,6 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color: #333333;
-  background-color: #ffffff;
 }
 input,
 button,
@@ -1127,7 +1125,6 @@ img {
 .img-thumbnail {
   padding: 4px;
   line-height: 1.42857143;
-  background-color: #ffffff;
   border: 1px solid #dddddd;
   border-radius: 4px;
   -webkit-transition: all 0.2s ease-in-out;
@@ -2193,7 +2190,6 @@ th {
   border-top: 2px solid #dddddd;
 }
 .table .table {
-  background-color: #ffffff;
 }
 .table-condensed > thead > tr > th,
 .table-condensed > tbody > tr > th,
@@ -2454,7 +2450,6 @@ output {
   font-size: 14px;
   line-height: 1.42857143;
   color: #555555;
-  background-color: #ffffff;
   background-image: none;
   border: 1px solid #cccccc;
   border-radius: 4px;
@@ -2947,7 +2942,6 @@ fieldset[disabled] a.btn {
 }
 .btn-default {
   color: #333333;
-  background-color: #ffffff;
   border-color: #cccccc;
 }
 .btn-default:focus,
@@ -2991,7 +2985,6 @@ fieldset[disabled] .btn-default:focus,
 .btn-default.disabled.focus,
 .btn-default[disabled].focus,
 fieldset[disabled] .btn-default.focus {
-  background-color: #ffffff;
   border-color: #cccccc;
 }
 .btn-default .badge {
