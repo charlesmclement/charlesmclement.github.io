@@ -5,6 +5,7 @@
 }
 
 h1 {
+    z-index:1;
     font-size: 70pt;
     font-family: Impact, Helvetica;
     color: lightgrey;
@@ -12,6 +13,7 @@ h1 {
 }
 
 h2 {
+    z-index:1;
     font-size: 55pt;
     font-family: Impact, Helvetica;
     color: lightgrey;
@@ -20,6 +22,7 @@ h2 {
 
 
 h3 {
+    z-index:1;
     font-size: 45pt;
     font-family: Impact, Helvetica;
     color: lightgrey;
@@ -124,9 +127,6 @@ h3 {
 
 }
 
-#projectsCaption{
-     color:white; z-index:1;
-     }
 #projectsArrow{
     margin:-100px 0 0 50%; z-index:2;
 }
