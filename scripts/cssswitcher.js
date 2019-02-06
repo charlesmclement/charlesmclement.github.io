@@ -13,10 +13,12 @@
 }
 
 function menuAbout() {
+    $(document).click(function () {
         $('#show').click(function () {
+            $('.menu').hide("slide");
             $('.demos').hide;
             $('.projects').hide;
-            $('.menu').hide("slide");
+            
         });
     });
 }
