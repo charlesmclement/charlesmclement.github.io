@@ -135,8 +135,8 @@ h3 {
 
 .mobileMenu{
 	position:fixed;
-	top:15px;
-	right:90%;
+	top:12px;
+	right:80%;
 	height:70px;
 	width:80px;
     z-index:3;
