@@ -139,5 +139,6 @@ h3 {
 	right:95%;
 	height:70px;
 	width:80px;
+    z-index:3;
 }
 
