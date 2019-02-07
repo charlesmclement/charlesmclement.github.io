@@ -130,3 +130,22 @@ h3 {
     margin: -100px 0 0 50%;
     z-index: 2;
 }
+.mobileMenuLight{
+    visibility:hidden;
+	position:fixed;
+	top:-2px;
+	right:88%;
+	height:70px;
+	width:80px;
+    z-index:3;
+}
+
+.mobileMenuDark{
+
+	position:fixed;
+	top:-2px;
+	right:88%;
+	height:70px;
+	width:80px;
+    z-index:3;
+}

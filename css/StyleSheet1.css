@@ -133,7 +133,17 @@ h3 {
 }
 
 
-.mobileMenu{
+.mobileMenuLight{
+	position:fixed;
+	top:-2px;
+	right:88%;
+	height:70px;
+	width:80px;
+    z-index:3;
+}
+
+.mobileMenuDark{
+    visibility:hidden;
 	position:fixed;
 	top:-2px;
 	right:88%;
