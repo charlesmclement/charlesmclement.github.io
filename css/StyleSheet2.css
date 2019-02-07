@@ -150,3 +150,7 @@ h3 {
 	width:80px;
     z-index:3;
 }
+
+.portrait{
+	border-radius: 50%
+}
