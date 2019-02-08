@@ -24,7 +24,7 @@
         var $target = $(target);
 
         $('html, body').animate({
-            'scrolltop': $target.offset().top
+            'scrolltop': ($target).offset().top
         }, 1000, 'swing', function () {
             window.location.hash = target;
              });
