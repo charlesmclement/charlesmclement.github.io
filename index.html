@@ -7,41 +7,12 @@
     <link rel="stylesheet" type="text/css" title="light" href="css/StyleSheet1.css">
     <link rel="alternate stylesheet" type="text/css" title="dark" href="css/StyleSheet2.css">
     <script src="scripts/cssswitcher.js"></script>
-    <script src="scripts/scroller.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" href="css/bootstrap.css"
     <link rel="stylesheet" href="css/bootstrap-theme.min.css" />
     <title>Charles M Clement - Software Developer</title>
     <meta charset="utf-8" />
-    <script>
-        window.onload = function () {
-
-            //Get a reference to the link on the page
-            // with an id of "mylink"
-            var a = document.getElementById("mylink");
-
-            //Set code to run when the link is clicked
-            // by assigning a function to "onclick"
-            a.onclick = function () {
-                var offset = $("p").offset();
-                $("html,body").animate({
-                    scrollTop: 250,
-                    scrollLeft: offset.left
-                });
-                // Your code here...
-
-                //If you don't want the link to actually 
-                // redirect the browser to another page,
-                // "google.com" in our example here, then
-                // return false at the end of this block.
-                // Note that this also prevents event bubbling,
-                // which is probably what we want here, but won't 
-                // always be the case.
-                return false;
-            }
-        }
-    </script>
 </head>
 <body>
 
@@ -55,7 +26,7 @@
     </div>
     <div class="menuBarLight hidden-sm hidden-xs">
         <div>
-            <a href="#about" id="mylink"><img src="img/l_button_about.png" height=50></a>
+            <a href="#about"><img src="img/l_button_about.png" height=50></a>
             <a href="#projects"><img src="img/l_button_projects.png" height=50></a>
             <a href="#demos"><img src="img/l_button_demos.png" height=50></a>&nbsp;&nbsp;
         </div>
