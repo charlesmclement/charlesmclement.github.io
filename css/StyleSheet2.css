@@ -165,6 +165,9 @@ h3 {
 .portrait{
 	border-radius: 50%
 }
+.asciiart {
+    font-family:'Courier New';
+}
 
 
 .menuIcon{

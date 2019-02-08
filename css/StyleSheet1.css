@@ -173,3 +173,6 @@ h3 {
 .content{
     z-index:2;
 }
+.asciiart {
+    font-family:'Courier New';
+}
