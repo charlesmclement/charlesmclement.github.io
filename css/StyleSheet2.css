@@ -84,6 +84,7 @@ h3 {
     position: fixed;
     top: 0px;
     right: 50px;
+    z-index:8;
 }
 
 .lightsoff {
@@ -93,6 +94,7 @@ h3 {
     visibility: hidden;
     height: 70px;
     width: 80px;
+    z-index:8;
 }
 
 .links {
@@ -101,7 +103,7 @@ h3 {
     right: 550px;
     height: 70px;
     width: 700px;
-        z-index:8;
+    z-index:8;
 
 }
 
