@@ -157,3 +157,8 @@ h3 {
 .portrait{
 	border-radius: 50%
 }
+
+
+.menuIcon{
+    z-index:8;
+}
