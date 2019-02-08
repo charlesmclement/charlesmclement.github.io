@@ -8,29 +8,12 @@
     <link rel="alternate stylesheet" type="text/css" title="dark" href="css/StyleSheet2.css">
     <script src="scripts/cssswitcher.js"></script>
     <script src="scripts/scroller.js"></script>
-
     <script src="js/bootstrap.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" href="css/bootstrap.css"
     <link rel="stylesheet" href="css/bootstrap-theme.min.css" />
     <title>Charles M Clement - Software Developer</title>
     <meta charset="utf-8" />
-    <script>
-        $(document).ready(function()){
-            $('a[href^="#']).on('click',function (e) {
-                 e.preventDefault();
-
-        var target = this.hash;
-        var $target = $(target);
-
-        $('html, body').animate({
-            'scrolltop': ($target).offset().top
-        }, 1000, 'swing', function () {
-            window.location.hash = target;
-             });
-         });
-     });
-    </script>
 </head>
 <body>
 
@@ -44,7 +27,7 @@
     </div>
     <div class="menuBarLight hidden-sm hidden-xs">
         <div>
-            <a href="#about"><img src="img/l_button_about.png" height=50></a>
+            <a href="#about" onclick="about()"><img src="img/l_button_about.png" height=50></a>
             <a href="#projects"><img src="img/l_button_projects.png" height=50></a>
             <a href="#demos"><img src="img/l_button_demos.png" height=50></a>&nbsp;&nbsp;
         </div>
