@@ -101,6 +101,8 @@ h3 {
     right: 550px;
     height: 70px;
     width: 700px;
+        z-index:8;
+
 }
 
 

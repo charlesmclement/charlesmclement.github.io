@@ -87,6 +87,8 @@ h3 {
 	position:fixed;
 	top:0px;
 	right:50px;
+    z-index:8;
+
 }
 
 .lightsoff{
@@ -95,6 +97,8 @@ h3 {
 	right:50px;
 	height:70px;
 	width:80px;
+    z-index:8;
+
 }
 
 
@@ -116,12 +120,16 @@ h3 {
 	position:fixed;
 	top:12px;
 	right:200px;
+        z-index:8;
+
 }
 .menuBarDark{
 	position:fixed;
 	top:12px;
 	right:200px;
 	visibility:hidden;
+        z-index:8;
+
 }
 
 .projectsTitle{
