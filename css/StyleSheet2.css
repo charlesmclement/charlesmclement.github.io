@@ -116,12 +116,16 @@ h3 {
     top: 12px;
     right: 200px;
     visibility: hidden;
+    z-index:8;
+
 }
 
 .menuBarDark {
     position: fixed;
     top: 12px;
     right: 200px;
+        z-index:8;
+
 }
 
 .projectsTitle {
