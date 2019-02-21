@@ -1,0 +1,12 @@
+
+>tell antsy Good scrap.
+You say to the reedy, rust-skinned half-elf, in allundean:
+     "Good scrap."
+
+>
+The reedy, rust-skinned half-elf exhales slowly,t rying to catch his breath.
+
+
+>tell antsy You're never gonna catch that breath, you're only half an elf.
+You say to the reedy, rust-skinned half-elf, in allundean:
+     "You're never gonna catch that breath, you're only half an elf."

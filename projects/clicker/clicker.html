@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<script src="js/clicker.js"></script>
+		<link rel="stylesheet" href="css/style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!-- Big button -->		
+		<title>Copyright Clicker!</title> 		
+	</head>
+	<body>	
+		<div class="Table">
+			<div class="TableBody">
+
+				<div class="TableRow">
+					<div class="clickbox" onclick="Click()">
+						<img src="img/trans.png">
+					</div>
+				</div>
+			</div>
+		</div>
+					
+	
+
+<!-- Controls and Output -->
+			<div class="divTable">
+				<div class="divTableRow"><br><br>
+							<div class="caption">Makin some copies!</div>
+					<hr>
+					<button type="button" class="btn btn-danger" id="doubleClick" onclick="buyDoubleClick()" 
+						disabled="true" data-toggle="tooltip" title="25 bucks">2x Clicker</button>
+					<button id="threeRound" class="btn btn-danger" onclick="buyThreeRound()" 
+						disabled="true" data-toggle="tooltip" title="100 bucks">3x Burst</button>
+					<button id="internetUpgrade1" type="button" class="btn btn-danger" onclick="buyInternet1()" 
+						disabled="true" data-toggle="tooltip" title="500 bucks">Upgrade Internet</button>
+					<button id="internetUpgrade2" class="btn btn-danger" onclick="buyInternet2()" 
+						disabled="true" data-toggle="tooltip" title="750 bucks">x2</button>
+					<button id="internetUpgrade3" class="btn btn-danger" onclick="buyInternet3()" 
+						disabled="true" data-toggle="tooltip" title="1200 bucks">x3</button>
+					<button id="internetUpgrade4" class="btn btn-danger" onclick="buyInternet4()" 
+						disabled="true" data-toggle="tooltip" title="1800 bucks">x4</button>
+						
+					<br>
+					<button type="button" class="btn btn-danger" id="seedbox1" onclick="buySeedbox1()" 
+						disabled="true" data-toggle="tooltip" title="200 bucks">Buy Seedbox</button>
+					<button type="button" class="btn btn-danger" id="seedbox2" onclick="buySeedbox2()" 
+						disabled="true" data-toggle="tooltip" title="300 bucks">x2</button>
+					<button type="button" class="btn btn-danger" id="seedbox3" onclick="buySeedbox3()" 
+						disabled="true" data-toggle="tooltip" title="400 bucks">x3</button>
+					<button type="button" class="btn btn-danger" id="seedbox4" onclick="buySeedbox4()" 
+						disabled="true" data-toggle="tooltip" title="500 bucks">x4</button>	
+					<button type="button" class="btn btn-danger" id="seedbox5" onclick="buySeedbox5()" 
+						disabled="true" data-toggle="tooltip" title="600 bucks"> x5</button>
+					<button type="button" class="btn btn-danger" id="seedbox6" onclick="buySeedbox6()"
+						disabled="true" data-toggle="tooltip" title="700 bucks">x6</button>						
+					<button type="button" class="btn btn-danger" id="seedbox7" onclick="buySeedbox7()"
+						disabled="true" data-toggle="tooltip" title="800 bucks">x7</button>&nbsp;&nbsp;
+					<button id="cashOutButton" class="btn btn-success" onclick="cashOut()"
+						data-toggle="tooltip" title="Sell copies lol">Cash out</button>
+				</div>
+				<div class="divTableRow">
+					<h5>Hover over upgrades for price<br>
+					<a href="">Price list</a></h5>
+				</div>
+			</div>
+
+
+	<div class="divTable">
+		<div class="divTableBody">
+			<div class="divTableRow">
+				<div class="divTableCell caption">Copies:</div>
+				<div class="divTableCell caption">Cash:</div>
+				<div class="divTableCell caption">Boxes:</div>
+				<div class="divTableCell caption">Timer:</div>
+			</div>
+			<div class="divTableRow">
+				<div class="divTableCell captionsmall" id="output">0</div>
+				<div class="divTableCell captionsmall" id="cashOutput">0</div>
+				<div class="divTableCell captionsmall" id="seedboxOutput">0</div>
+				<div class="divTableCell captionsmall" id="timer">Buy Seedbox</div>
+			</div>
+		</div>
+	</div>
+					
+					
+					
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>	
+		
+		
+		
+	</body>
+</html>
+
+
+
+<!--  
+
+
+==>

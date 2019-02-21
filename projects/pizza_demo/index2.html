@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="hint.css">
+	</head>
+	
+	<body>
+	
+		<!-- Title -->
+		<div class="align-center">
+		<h1> Pizza!!</h1>
+		<img src="./img/pizza.png" width=300>
+<div class="container">
+		<div id="menuBG"><h1>Academy Pizza!</h1>
+			<form id="frmMenu">
+	
+		<!-- Size -->
+		<h3> Size: </h3>
+		<ul class="menu">
+			<li>$ 6.00 <input class="size" type="radio" name="Size" value="Personal Pizza"> Personal Pizza<br>
+			<li>$10.00<input class="size" type="radio" name="Size" value="Medium Pizza"> Medium Pizza<br></li>
+			<li>$14.00<input class="size" type="radio" name="Size" value="Large Pizza" checked> Large Pizza<br></li>
+			<li>$16.00<input class="size" type="radio" name="Size" value="Extra Large Pizza"> Extra Large Pizza<br></li>
+		</ul>
+
+		<!-- Meat -->
+		<h3> Meat: </h3>
+		<p>+$1.00 each additional meat items beyond the first complementary meat item</p>
+		<ul class="menu">
+			<li><input class="meats" type="checkbox" name="Meat" value="Pepperoni">Pepperoni</li>
+			<li><input class="meats" type="checkbox" name="Meat" value="Sausage">Sausage</li>
+			<li><input class="meats" type="checkbox" name="Meat" value="Canadian Bacon">Canadian Bacon</li>
+			<li><input class="meats" type="checkbox" name="Meat" value="Ground Beef">Ground Beef</li>
+			<li><input class="meats" type="checkbox" name="Meat" value="Anchovy">Anchovy</li>
+			<li><input class="meats" type="checkbox" name="Meat" value="Chicken">Chicken</li>
+		</ul>
+		
+		<!-- Cheese -->
+		<h3> Cheese: </h3>
+		<p>+$3.00 for Extra Cheese</p>
+		<ul class="menu">
+			<li><input class="cheese" type="radio" name="cheese" value="Regular Cheese"> Regular Cheese<br>
+			<li><input class="cheese" type="radio" name="cheese" value="Extra Cheese"> Extra Cheese<br>
+			<li><input class="cheese" type="radio" name="cheese" value="No Cheese"> No Cheese<br>
+		</ul>
+		
+		<!-- Crust -->
+		<h3> Crust: </h3>
+		<p>+$3.00 for Cheese Stuffed Crust. All other crusts are complementary</p>
+		<ul class="menu">
+			<li><input class="crust" type="radio" name="Crust" value="Plain Crust"> Plain Crust<br>
+			<li><input class="crust" type="radio" name="Crust" value="Garlic Butter Crust"> Garlic Butter Crust<br>
+			<li><input class="crust" type="radio" name="Crust" value="Cheese Stuffed Crust"> Cheese Stuffed Crust<br>
+			<li><input class="crust" type="radio" name="Crust" value="Spicy Crust"> Spicy Crust<br>
+			<li><input class="crust" type="radio" name="Crust" value="House Special Crust"> House Special Crust<br>
+		</ul>
+
+
+		<!-- Sauce -->
+		<h3> Sauce: </h3>
+		<ul class="menu">
+			<li><input class="sauce" type="radio" name="sauce" value="Marinara Sauce"> Marinara Sauce<br>
+			<li><input class="sauce" type="radio" name="sauce" value="White Sauce"> White Sauce<br>
+			<li><input class="sauce" type="radio" name="sauce" value="Barbeque Sauce"> Barbeque Sauce<br>
+			<li><input class="sauce" type="radio" name="sauce" value="No Sauce"> No Sauce<br>
+		</ul>
+
+		<!-- Veggies -->
+		<h3> Veggies </h3>
+		<p>+$1.00 each additional veggie items beyond the first complementary veggie item</p>
+		<ul class="menu">
+			<li><input class="veggies" type="checkbox" name="veggies" value="Tomatoes">Tomatoes</li>
+			<li><input class="veggies" type="checkbox" name="veggies" value="Onions">Onions</li>
+			<li><input class="veggies" type="checkbox" name="veggies" value="Olives">Olives</li>
+			<li><input class="veggies" type="checkbox" name="veggies" value="Green Peppers">Green Peppers</li>
+			<li><input class="veggies" type="checkbox" name="veggies" value="Mushrooms">Mushrooms</li>
+			<li><input class="veggies" type="checkbox" name="veggies" value="Pineapple">Pineapple</li>
+			<li><input class="veggies" type="checkbox" name="veggies" value="Spinach">Spinach</li>
+			<li><input class="veggies" type="checkbox" name="veggies" value="Jalapeno">Jalapeno</li>
+		</ul>	
+		<!-- Checkout -->
+		<hr>
+		<h2>Checkout</h2>
+		<input id="btnOrder" type="button" onclick="getReceipt()" 
+				value="Place Order">
+		<div id="cart">
+					<div id="showText"></div>
+					<div id="totalPrice"></div>
+				</div>
+	 
+		<script src="./js/final_drill_basic.js"></script>
+	</body>
+</html>

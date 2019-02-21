@@ -1,0 +1,77 @@
+.clickbox {
+    background-image:  url("../img/copy.gif");
+	float: left;
+	width: 500 px;
+	height: 500 px;
+	z-index:2
+}
+
+.clickbox:active {
+    background-image:  url("../img/copy2.gif")
+
+}
+
+.controls {
+	margin-top: 500px;
+	position:fixed;
+	float: left;
+	width: 500 px;
+	height: 200 px;
+	z-index: 0
+	
+}
+
+h5 {
+	text-align:center
+	
+}
+
+
+.caption {
+	font-family: impact;
+	font-size: 25pt;
+	text-align:center
+}
+
+.captionsmall {
+	font-family: impact;
+	font-size: 15pt;
+	text-align:center
+}
+
+
+
+
+.divTable{
+	display: table;
+	width: 500px;
+	margin-top:4px;
+}
+.divTableRow {
+	display: table-row;
+	border:none;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+}
+.divTableCell, .divTableHead {
+	border: none;
+	display: table-cell;
+	padding: 3px 10px;
+	border:1px black solid;
+
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+	font-weight: bold;
+}
+.divTableFoot {
+	background-color: #EEE;
+	display: table-footer-group;
+	font-weight: bold;
+}
+.divTableBody {
+	display: table-row-group;
+}
