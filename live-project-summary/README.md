@@ -252,7 +252,7 @@ I was tasked with creating a homepage which shows the ten most recently active t
         {% block content %}
         {% endblock %}
         
-![TTAForum](https://raw.githubusercontent.com/charlesmclement/charlesmclement.github.io/master/live-project-summary/images/ttaforums.PNG)
+![TTAForum](https://raw.githubusercontent.com/charlesmclement/charlesmclement.github.io/master/live-project-summary/images/tta.PNG)
 ___
 
 ## Erectors Inc
