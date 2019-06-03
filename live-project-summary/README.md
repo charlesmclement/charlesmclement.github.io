@@ -28,7 +28,7 @@ as well.
  ![Chat Editor](https://raw.githubusercontent.com/charlesmclement/charlesmclement.github.io/master/live-project-summary/images/mobileandeditor.png "Message editor") 
 
  
-CSS :
+**CSS :**
 
         @media only screen and (max-width: 1023px) { 
             .editor-link { 
@@ -78,7 +78,7 @@ CSS :
             }
         }
 
-JavaScript: 
+**JavaScript:** 
     
     var modal = document.getElementById("modal-body");
     var btn = document.getElementById("modal-button");
