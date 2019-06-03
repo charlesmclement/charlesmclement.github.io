@@ -362,6 +362,26 @@ ___
     
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Other Skills Learned
 * Working with a group of developers to identify front and back end bugs to the improve usability of an application
 * Improving project flow by communicating about who needs to check out which files for their current story
