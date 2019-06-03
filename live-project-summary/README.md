@@ -20,7 +20,7 @@ I was tasked with restyling the messaging frontend from its current styling, to 
 a multiline message editor, and is responsive to multiple screen sizes. All of the colors in this project are stored in variables so that the user can customize their experience  
 as well.
 
-![Desktop View](https://raw.githubusercontent.com/charlesmclement/charlesmclement.github.io/master/live-project-summary/images/chat.png "Desktop view") ![Chat Editor](/images/chateditor.png "Message editor") ![Mobile View](/images/mobileview.png "Mobile view")
+![Desktop View](https://raw.githubusercontent.com/charlesmclement/charlesmclement.github.io/master/live-project-summary/images/chat.png "Desktop view") ![Chat Editor](https://raw.githubusercontent.com/charlesmclement/charlesmclement.github.io/master/live-project-summary/images/chateditor.png "Message editor") ![Mobile View](https://raw.githubusercontent.com/charlesmclement/charlesmclement.github.io/master/live-project-summary/images/mobileview.png "Mobile view")
 
 CSS :
 
@@ -250,7 +250,7 @@ I was tasked with creating a homepage which shows the ten most recently active t
         {% block content %}
         {% endblock %}
         
-![TTAForum](/images/ttaforum.png)
+![TTAForum](https://raw.githubusercontent.com/charlesmclement/charlesmclement.github.io/master/live-project-summary/images/ttaforum.png)
 ___
 
 ## Erectors Inc
