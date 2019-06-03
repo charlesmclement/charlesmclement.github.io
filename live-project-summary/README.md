@@ -19,10 +19,8 @@ In this project, I worked with my peers on a site called DataScrape. It is a Dja
 I was tasked with restyling the messaging frontend from its current styling, to a more modern styling akin to iMessage or Facebook. The front end features removable conversations,  
 a multiline message editor, and is responsive to multiple screen sizes. All of the colors in this project are stored in variables so that the user can customize their experience  
 as well.
-<div style="text-align:center">
-<img src="https://raw.githubusercontent.com/charlesmclement/charlesmclement.github.io/master/live-project-summary/images/chat.png"></div>
-"Desktop view") ![Chat Editor](https://raw.githubusercontent.com/charlesmclement/charlesmclement.github.io/master/live-project-summary/images/chateditor.png "Message editor") ![Mobile View](https://raw.githubusercontent.com/charlesmclement/charlesmclement.github.io/master/live-project-summary/images/mobileview.PNG "Mobile view")
-
+![Chat Editor](https://raw.githubusercontent.com/charlesmclement/charlesmclement.github.io/master/live-project-summary/images/chat.png "Desktop view") ![Mobile View](https://raw.githubusercontent.com/charlesmclement/charlesmclement.github.io/master/live-project-summary/images/mobileview.PNG "Mobile view")
+ ![Chat Editor](https://raw.githubusercontent.com/charlesmclement/charlesmclement.github.io/master/live-project-summary/images/chateditor.png "Message editor") 
 CSS :
 
         @media only screen and (max-width: 1023px) { 
