@@ -1,6 +1,6 @@
 # Live Project Code Summary
 
-###Charles Clement
+*Charles Clement*
 
 ### Live Projects
 * [DataScrape](#datascrape)
