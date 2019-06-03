@@ -21,8 +21,8 @@ a multiline message editor, and is responsive to multiple screen sizes. All of t
 as well.  
 
 ![Chat Editor](https://raw.githubusercontent.com/charlesmclement/charlesmclement.github.io/master/live-project-summary/images/chat.png "Desktop view") 
- ![Chat Editor](https://raw.githubusercontent.com/charlesmclement/charlesmclement.github.io/master/live-project-summary/images/chateditor.png "Message editor") 
- ![Mobile View](https://raw.githubusercontent.com/charlesmclement/charlesmclement.github.io/master/live-project-summary/images/mobileview.PNG "Mobile view")  
+ ![Chat Editor](https://raw.githubusercontent.com/charlesmclement/charlesmclement.github.io/master/live-project-summary/images/mobileandeditor.png "Message editor") 
+
  
 CSS :
 
