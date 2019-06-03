@@ -20,7 +20,7 @@ I was tasked with restyling the messaging frontend from its current styling, to 
 a multiline message editor, and is responsive to multiple screen sizes. All of the colors in this project are stored in variables so that the user can customize their experience  
 as well.  
 
-![Chat Editor](https://raw.githubusercontent.com/charlesmclement/charlesmclement.github.io/master/live-project-summary/images/chat.png "Desktop view") 
+![Chat Editor](https://raw.githubusercontent.com/charlesmclement/charlesmclement.github.io/master/live-project-summary/images/chats.png "Desktop view") 
  ![Chat Editor](https://raw.githubusercontent.com/charlesmclement/charlesmclement.github.io/master/live-project-summary/images/mobileandeditor.png "Message editor") 
 
  
