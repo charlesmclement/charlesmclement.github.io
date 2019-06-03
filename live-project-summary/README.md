@@ -361,6 +361,14 @@ In this task I populated the database with test messages and news items using En
             context.SaveChanges();
 
 ___
+** work in progress remaining example below **
+___
+___
+___
+___
+___
+___
+___
 
 
 
