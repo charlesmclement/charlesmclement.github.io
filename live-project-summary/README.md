@@ -8,7 +8,7 @@
 * [The Tech Academy Forum](#the-tech-academy-forum)
 * [Erectors Inc](#erectors-inc)
 * [TravelScrape](#travelscrape)
-* [OtherSkills](#other-skills)
+* [Other Skills](#other-skills-learned)
 ---
 ## DataScrape
 In this project, I worked with my peers on a site called DataScrape. It is a Django site that uses APIs to collect information based on the user's location.
