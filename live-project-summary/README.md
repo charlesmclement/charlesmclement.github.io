@@ -397,4 +397,4 @@ In this task I made a Django App to convert between different currencies. It fea
                form = CurrencyForm(request.POST)
                return render(request, 'currency/currency.html', {'form' : form})
 
-![Currency Converter](https://raw.githubusercontent.com/charlesmclement/charlesmclement.github.io/master/live-project-summary/images/currency.png "Currency Converter") 
+![Currency Converter](https://raw.githubusercontent.com/charlesmclement/charlesmclement.github.io/master/live-project-summary/images/currency.PNG "Currency Converter") 
