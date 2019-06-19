@@ -7,6 +7,7 @@
 * [DataScrape](#datascrape)
 * [The Tech Academy Forum](#the-tech-academy-forum)
 * [Erectors Inc](#erectors-inc)
+* [TravelScrape](#travelscrape)
 
 ---
 ## DataScrape
@@ -359,49 +360,39 @@ In this task I populated the database with test messages and news items using En
             };
             NewsItems.ForEach(x => context.CompanyNews.AddOrUpdate(n => n.DateStamp, x));
             context.SaveChanges();
+         
+ ___
+ 
+## TravelScrape
+* [Add Currency App](#add-currency-app)
 
-___
-** work in progress remaining example below **
-___
-___
-___
-___
-___
-___
-___
+### Add Currency App
+In this task I made a Django App to convert between different currencies. It features customizable base and target currencies, as well as crypto currencies.
 
+    def currency(request):
+           url = 'http://data.fixer.io/api/latest?access_key=2279dc03455788be16c0da66470aea36'
 
+           if request.method == "POST":
+               form = CurrencyForm(request.POST)
+               if form.is_valid():
+                   j = json.loads(urllib.request.urlopen(url).read())
+                   target = form.cleaned_data['target_currency']
+                   base = form.cleaned_data['base_currency']
+                   dollars = form.cleaned_data['money'] # Dollars, our base currency
+                   euros = dollars / j["rates"][base] # Convert to Euros, the API's base currency
+                   c = j["rates"][target]
+                   original = '{:,.2f}'.format(dollars)            #
+                   amount = '{:,.2f}'.format(round(euros * c, 2))  #Format to display money
+                   conversion = {
+                       'original' : original,
+                       'amount' : amount,
+                       'currency' : target,
+                       'base' : base,
+                       'rates' : j["rates"]
+                   }
 
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Other Skills Learned
-* Working with a group of developers to identify front and back end bugs to the improve usability of an application
-* Improving project flow by communicating about who needs to check out which files for their current story
-* Learning new efficiencies from other developers by observing their workflow and asking questions  
-* Practice with team programming/pair programming when one developer runs into a bug they cannot solve
-    * One of the developers on the team was having trouble with the JavaScript function being called to increment and decrement the likes on a page and myself and two others on the team sat with him and had him talk through what he had done so far. I asked questions about different ways to approach it until we found where it was broken and what needed to be fixed.
-    * When a user requests a friendship there is supposed to be a pending notification displayed. One of the other developers was hitting a wall while working on this story when he discovered the functionality was working four different ways across the application. I sat with him and we talked through the process of each JavaScript function being called. We discovered there were multiple functions by the same name being loaded, so we simplified the code down to just one function. Clicking the button would now work from the nav drop-down but not on a specific page. I realized that the page was populating two different spans with the same ID and these were what was being targeted by the JavaScript function. So we needed to make that user-specific element identifier a class and target the class instead so that a change in either place would affect both.
-
-
-*Jump to: [Front End Stories](#front-end-stories), [Back End Stories](#back-end-stories), [Other Skills](#other-skills-learned), [Page Top](#live-project)*
+                   context = {'conversion' : conversion}
+                   return render(request, 'currency/currency_conversion.html', context)
+           else:
+               form = CurrencyForm(request.POST)
+               return render(request, 'currency/currency.html', {'form' : form})
